@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KFC Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Hi Ghadi</h1>
+    </header>
+    <main>
+        <style>
+            /* CSS to lower down the image */
+            img.lowered-image-1 {
+                margin-top: 50px; /* Add space above the image */
+                
+            }
+        </style>
+        <h2>UwU</h2>
+        <!-- Your paragraphs here -->
+ <p>I just wanted to say that you are a fucking black monkey that looks like the following niggas: </p>
+        <!-- Add images with their respective src attributes -->
+        <img src="https://wallpapers.com/images/hd/funny-gorilla-pictures-03ok8ac487ou91ah.jpg" alt="Image 1" class="lowered-image-1">
+        <img src="https://wallpapers.com/images/hd/funny-gorilla-pictures-7xdeia62b4tt0qae.jpg" alt="Image 2">
+        <img src="https://wallpapers.com/images/hd/funny-gorilla-pictures-okc2xicavuljxzz7.jpg" alt="Image 3">
+
+        <p>Can you kiss your homie goodnight? (please try both buttons)</p>
+       
+
+        <!-- Add "Yes" and "No" buttons -->
+        <button onclick="openYesWindow()">Yes</button>
+        <button onclick="openNoWindow()">No</button>
+           
+       
+    </main>
+
+    <script>
+        // Function to open a new window with a "Yes" message
+        function openYesWindow() {
+            // Define the "Yes" message
+            var yesMessage ="mwah";
+            //Define the Yes message immage
+            var yesImageSource = "https://i.kym-cdn.com/photos/images/original/002/444/001/a3e.jpg";
+
+            // Open a new browser window with the "Yes" message
+            var yesWindow = window.open('', '_blank');
+            yesWindow.document.write('<html><head><title>Yes Message</title></head><body>');
+
+            // Write the "Yes" message to the new window
+            yesWindow.document.write('<p>' + yesMessage + '</p>');
+
+            yesWindow.document.write('</body></html>');
+            //Call the image show button
+            yesWindow.document.write('<img src="' + yesImageSource + '" alt="Yes">');
+        }
+
+        // Function to open a new window with a "No" message
+        function openNoWindow() {
+            // Define the "No" message
+            var noMessage = "Fuck you, this is who you made sad btw :(";
+            var noImageSource = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8OPFGptT_RaaeWRsU7Z6n06pj68o_-3DehA&usqp=CAU";
+
+            // Open a new browser window with the "No" message
+            var noWindow = window.open('', '_blank');
+            noWindow.document.write('<html><head><title>No Message</title></head><body>');
+
+            // Write the "No" message to the new window
+            noWindow.document.write('<p>' + noMessage + '</p>');
+            noWindow.document.write('<img src="' + noImageSource + '" alt="No">');
+            noWindow.document.write('</body></html>');
+        }
+    </script>
+</body>
+</html>
+
+</body>
+</html>
+
+
